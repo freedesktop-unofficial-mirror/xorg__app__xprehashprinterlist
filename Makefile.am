@@ -21,8 +21,8 @@
 
 bin_PROGRAMS = xprehashprinterlist
 
-xprehashprinterlist_CFLAGS = $(DEP_CFLAGS)
-xprehashprinterlist_LDADD = $(DEP_LIBS)
+xprehashprinterlist_CFLAGS = $(XPREHASHPRINTERLIST_CFLAGS)
+xprehashprinterlist_LDADD = $(XPREHASHPRINTERLIST_LIBS)
 
 xprehashprinterlist_SOURCES =	\
         xprehashprinterlist.c
