@@ -27,7 +27,7 @@ xprehashprinterlist_LDADD = $(XPREHASHPRINTERLIST_LIBS)
 xprehashprinterlist_SOURCES =	\
         xprehashprinterlist.c
 
-dist_man_MANS = \
+dist_man1_MANS = \
         xprehashprinterlist.man
 
 EXTRA_DIST = xprehashprinterlist.sgml
