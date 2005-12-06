@@ -27,16 +27,16 @@ xprehashprinterlist_LDADD = $(XPREHASHPRINTERLIST_LIBS)
 xprehashprinterlist_SOURCES =	\
         xprehashprinterlist.c
 
-appman_SOURCES = \
+appman_PRE = \
         xprehashprinterlist.man
 
 EXTRA_DIST = xprehashprinterlist.sgml
 
 appmandir = $(APP_MAN_DIR)
 
-appman_DATA = $(appman_SOURCES:man=@APP_MAN_SUFFIX@)
+appman_DATA = $(appman_PRE:man=@APP_MAN_SUFFIX@)
 
-EXTRA_DIST += $(appman_SOURCES)
+EXTRA_DIST += $(appman_PRE)
 CLEANFILES = $(appman_DATA)
 
 SED = sed
