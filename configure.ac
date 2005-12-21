@@ -22,7 +22,7 @@ dnl
 dnl Process this file with autoconf to create configure.
 
 AC_PREREQ([2.57])
-AC_INIT(xprehashprinterlist,[1.0.0], [https://bugs.freedesktop.org/enter_bug.cgi?product=xorg],xprehashprinterlist)
+AC_INIT(xprehashprinterlist,[1.0.1], [https://bugs.freedesktop.org/enter_bug.cgi?product=xorg],xprehashprinterlist)
 AM_INIT_AUTOMAKE([dist-bzip2])
 AM_MAINTAINER_MODE
 
